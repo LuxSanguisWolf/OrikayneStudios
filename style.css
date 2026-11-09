@@ -1,0 +1,137 @@
+/*
+(Home)Background: #15131B
+(Home)Secondary: #25202F
+(Home)Tertiary: #453D5B
+Accent: #8756B5
+(Games)Midnight Navy: #12141C
+(Games)Deep Slate: #25283A
+(Games)Tertiary: #454B6D
+(About)Black Cherry: #170D10
+(About)Scarlet Slate: #30151D
+(About)Garnet: #4A2029
+Arcane Purple: #7652A5
+Plasma Cyan: #55B9D5
+Silver White: #E7EAF2
+Mist Gray: #A7B0C0
+*/
+
+body {
+	background-color:#15131B;
+	color: #E7EAF2;
+}
+
+h1,h2,h3,p {
+	text-align:center;
+}
+
+.homepage {
+	max-width:1200px;
+	margin:0 auto;
+	padding:20px;
+}
+
+.homepage header {
+	background-color:#25202F;
+	padding:30px;
+	margin:20px 0;
+	border-radius:10px;
+	text-align:center;
+}
+
+.homepage a {
+	text-align:center;
+}
+
+.homepage nav {
+	background-color:#8756B5;
+	padding:10px;
+	margin:20px 0;
+	border-radius:10px;
+}
+
+.homepage nav a {
+	color: #E7EAF2;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	transition:background-color 0.3s;
+}
+
+.homepage nav ul {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:40px;
+	list-style-type:none;
+	padding:10px;
+	margin:0;
+}
+
+.homepage .hero {
+	background-color:#453D5B;
+	padding:80px 20px;
+	margin:20px 0;
+	border-radius:10px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	min-height:250px;
+}
+
+.homepage .hero h2 {
+	font-size:36px;
+	color:#E7EAF2;
+	margin-bottom:15px;
+}
+
+.homepage .hero p {
+	font-size:20px;
+	color:#A7B0C0;
+}
+
+.homepage .welcome {
+	background-color: #25202F;
+	padding:40px;
+	margin:20px 0;
+	border-radius:10px;
+}
+
+.homepage .welcome p {
+	max-width:750px;
+	margin:25px auto;
+	line-height:1.7;
+	font-size:17px;
+	padding:25px;
+}
+
+.homepage .close {
+	background-color:#25202F;
+	padding:40px;
+	margin:20px 0;
+	border-radius:10px;
+	text-align:center;
+}
+
+.homepage .page-button {
+	display:inline-block;
+	background-color:#8756B5;
+	color:#E7EAF2;
+	padding:12px 24px;
+	margin:10px;
+	border-radius:8px;
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+	transition:background-color 0.3s;
+}
+
+.homepage .page-button:hover {
+	background-color:#453D5B;
+}
+
+.homepage footer {
+	padding:10px;
+	margin-top:20px;
+	font-size:14px;
+}
